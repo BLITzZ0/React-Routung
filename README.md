@@ -8,7 +8,8 @@ To solve this error :
 2) import components using ' import {component_name} from 'Path' ' 
 
 
-To keep some View that will static across all the routes we cal declare a div above <BrowserRouter> and make sure to keep both the div and browserroter in a top level div.
+To keep some View that will static across all the routes we cal declare a div above ```javascript <BrowserRouter> 
+and make sure to keep both the div and browserroter in a top level div.
 ```javascript
 '<div style={{background : "blue", color:"white"}}>
         Hi there this is Top Bar
