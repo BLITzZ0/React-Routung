@@ -9,6 +9,6 @@ To solve this error :
 
 
 To keep some View that will static across all the routes we cal declare a div above <BrowserRouter> and make sure to keep both the div and browserroter in a top level div.
-'<div style={{background : "blue", color:"white"}}>
+<!-- '<div style={{background : "blue", color:"white"}}>
         Hi there this is Top Bar
-      </div>'
+      </div>' -->
